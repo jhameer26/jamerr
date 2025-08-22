@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyecto académico sobre Big Data aplicado al Retail, ventajas, procesos y ejemplos prácticos.">
+  <title>Big Data en Retail</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff; /* Fondo blanco */
+      color: #003366;
+    }
+
+    header {
+      background: #66b3ff; /* Azul claro */
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      height: 90px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      border-left: 6px solid #66b3ff;
+      padding-left: 10px;
+      color: #004080;
+      margin-top: 40px;
+    }
+
+    /* Tablas estilo moderno */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: #f9f9f9;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    table th, table td {
+      padding: 14px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+      background: #66b3ff;
+      color: white;
+    }
+
+    table tr:hover {
+      background-color: #e6f2ff;
+    }
+
+    /* Listas */
+    ul, ol {
+      padding-left: 30px;
+      margin-top: 15px;
+    }
+
+    ul li, ol li {
+      margin: 8px 0;
+    }
+
+    /* Sección de imágenes */
+    .imagenes {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .imagenes img {
+      width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .imagenes img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Botón más información */
+    .btn-mas {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background: #66b3ff;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn-mas:hover {
+      background: #004080;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://www.ecommerceefectivo.com/wp-content/uploads/2024/09/Como-utilizar-Big-Data-para-mejorar-las-ventas-en-tu-tienda-online.jpg" alt="Logo Big Data">
+    <h1>Big Data aplicado al Retail</h1>
+  </header>
+
+  <main>
+    <p>
+      El <strong>Big Data</strong> ha transformado la forma en que las empresas del sector retail toman decisiones.
+      Gracias al análisis de grandes volúmenes de datos, es posible entender mejor a los clientes, optimizar inventarios
+      y diseñar estrategias de marketing más efectivas.
+    </p>
+
+    <h2>Ventajas del Big Data en Retail</h2>
+    <ul>
+      <li>Mejor experiencia del cliente.</li>
+      <li>Optimización de inventarios.</li>
+      <li>Predicción de tendencias de consumo.</li>
+      <li>Campañas de marketing personalizadas.</li>
+      <li>Mejora en la gestión de precios.</li>
+      <li>Reducción de pérdidas y fraudes.</li>
+    </ul>
+
+    <h2>Proceso de Análisis</h2>
+    <ol>
+      <li>Recolección de datos.</li>
+      <li>Almacenamiento en sistemas distribuidos.</li>
+      <li>Procesamiento con herramientas de Big Data.</li>
+      <li>Visualización e interpretación de resultados.</li>
+      <li>Toma de decisiones basada en datos.</li>
+    </ol>
+
+    <h2>Ejemplo de Datos en Retail</h2>
+    <table>
+      <tr>
+        <th>Producto</th>
+        <th>Ventas Mensuales</th>
+        <th>Stock Actual</th>
+        <th>Rotación (%)</th>
+      </tr>
+      <tr>
+        <td>Zapatos</td>
+        <td>120</td>
+        <td>50</td>
+        <td>70%</td>
+      </tr>
+      <tr>
+        <td>Camisas</td>
+        <td>200</td>
+        <td>80</td>
+        <td>80%</td>
+      </tr>
+      <tr>
+        <td>Pantalones</td>
+        <td>150</td>
+        <td>60</td>
+        <td>75%</td>
+      </tr>
+    </table>
+
+    <h2>Ejemplo Comparativo entre Tiendas</h2>
+    <table>
+      <tr>
+        <th>Tienda</th>
+        <th>Clientes Diarios</th>
+        <th>Ventas Totales</th>
+        <th>Satisfacción (%)</th>
+      </tr>
+      <tr>
+        <td>Retail A</td>
+        <td>350</td>
+        <td>$15,000</td>
+        <td>92%</td>
+      </tr>
+      <tr>
+        <td>Retail B</td>
+        <td>280</td>
+        <td>$12,000</td>
+        <td>85%</td>
+      </tr>
+      <tr>
+        <td>Retail C</td>
+        <td>420</td>
+        <td>$18,000</td>
+        <td>95%</td>
+      </tr>
+    </table>
+
+    <h2>Imágenes diseñadas</h2>
+    <div class="imagenes">
+      <img src="https://www.teamcore.net/wp-content/uploads/2022/11/Big-data-Retail-1.jpg" alt="Gráfico Retail">
+      <img src="https://image.freepik.com/vector-gratis/concepto-big-data-iconos-linea_31543-8.jpg" alt="Icono Big Data">
+    </div>
+
+    <h2 id="info">Más información</h2>
+    <div class="card">
+      <p>
+        Si deseas profundizar más sobre Big Data en retail, puedes visitar recursos especializados.
+      </p>
+      <a href="https://www.ibm.com/analytics/big-data" target="_blank" class="btn-mas">
+        🌐 Saber más
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 - Proyecto Académico | Big Data aplicado al Retail
+  </footer>
+</body>
+</html>
